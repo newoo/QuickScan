@@ -3,18 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440C05342B793771FAD343D7 /* Pods_QuickScanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7979C70DE70D6F814BF7EB53 /* Pods_QuickScanTests.framework */; };
+		A845F815D6123AC4DFCF4BE9 /* Pods_QuickScan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB69FA273D95C3A2502962F /* Pods_QuickScan.framework */; };
+		BCDBBA21CE209B7A0A419A82 /* Pods_QuickScan_QuickScanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D064314D7AA2C331320D552 /* Pods_QuickScan_QuickScanUITests.framework */; };
 		E01D08E4243F729E0020048C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D08E3243F729E0020048C /* AppDelegate.swift */; };
 		E01D08E6243F729E0020048C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D08E5243F729E0020048C /* SceneDelegate.swift */; };
-		E01D08E8243F729E0020048C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D08E7243F729E0020048C /* ViewController.swift */; };
+		E01D08E8243F729E0020048C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D08E7243F729E0020048C /* MainViewController.swift */; };
 		E01D08EB243F729E0020048C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01D08E9243F729E0020048C /* Main.storyboard */; };
 		E01D08ED243F729E0020048C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01D08EC243F729E0020048C /* Assets.xcassets */; };
 		E01D08F0243F729E0020048C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01D08EE243F729E0020048C /* LaunchScreen.storyboard */; };
 		E01D08FB243F729E0020048C /* QuickScanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D08FA243F729E0020048C /* QuickScanTests.swift */; };
 		E01D0906243F729E0020048C /* QuickScanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D0905243F729E0020048C /* QuickScanUITests.swift */; };
+		E01D0914243F75420020048C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D0913243F75420020048C /* MainViewModel.swift */; };
+		E01D0918243F7BAE0020048C /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D0917243F7BAE0020048C /* APIServiceTests.swift */; };
+		E01D091B243F7C050020048C /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D091A243F7C050020048C /* BaseAPI.swift */; };
+		E01D091C243F7C050020048C /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D091A243F7C050020048C /* BaseAPI.swift */; };
+		E01D091D243F7C050020048C /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D091A243F7C050020048C /* BaseAPI.swift */; };
+		E01D091F243F7D790020048C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D091E243F7D790020048C /* APIService.swift */; };
+		E01D0920243F7D790020048C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D091E243F7D790020048C /* APIService.swift */; };
+		E01D0921243F7D790020048C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D091E243F7D790020048C /* APIService.swift */; };
+		E0A5EF3124400D0A006CE34A /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3024400D0A006CE34A /* ScanViewController.swift */; };
+		E0A5EF3224400D0A006CE34A /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3024400D0A006CE34A /* ScanViewController.swift */; };
+		E0A5EF3324400D0A006CE34A /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3024400D0A006CE34A /* ScanViewController.swift */; };
+		E0A5EF3524400D98006CE34A /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3424400D98006CE34A /* ScanViewModel.swift */; };
+		E0A5EF3624400D98006CE34A /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3424400D98006CE34A /* ScanViewModel.swift */; };
+		E0A5EF3724400D98006CE34A /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3424400D98006CE34A /* ScanViewModel.swift */; };
+		E0A5EF3A24401137006CE34A /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3924401137006CE34A /* Scene.swift */; };
+		E0A5EF3B24401137006CE34A /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3924401137006CE34A /* Scene.swift */; };
+		E0A5EF3C24401137006CE34A /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3924401137006CE34A /* Scene.swift */; };
+		E0A5EF3E244011E1006CE34A /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3D244011E1006CE34A /* SceneCoordinator.swift */; };
+		E0A5EF3F244011E1006CE34A /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3D244011E1006CE34A /* SceneCoordinator.swift */; };
+		E0A5EF40244011E1006CE34A /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF3D244011E1006CE34A /* SceneCoordinator.swift */; };
+		E0A5EF4324401395006CE34A /* SceneHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF4224401395006CE34A /* SceneHelper.swift */; };
+		E0A5EF4424401395006CE34A /* SceneHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF4224401395006CE34A /* SceneHelper.swift */; };
+		E0A5EF4524401395006CE34A /* SceneHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF4224401395006CE34A /* SceneHelper.swift */; };
+		E0A5EF482440362E006CE34A /* ScanType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF472440362E006CE34A /* ScanType.swift */; };
+		E0A5EF492440362E006CE34A /* ScanType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF472440362E006CE34A /* ScanType.swift */; };
+		E0A5EF4A2440362E006CE34A /* ScanType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF472440362E006CE34A /* ScanType.swift */; };
+		E0A5EF4C24404569006CE34A /* SendDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF4B24404569006CE34A /* SendDataDelegate.swift */; };
+		E0A5EF4D24404569006CE34A /* SendDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF4B24404569006CE34A /* SendDataDelegate.swift */; };
+		E0A5EF4E24404569006CE34A /* SendDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5EF4B24404569006CE34A /* SendDataDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +67,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D8D663F260D4EB5B9A1A59 /* Pods-QuickScan-QuickScanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickScan-QuickScanUITests.release.xcconfig"; path = "Target Support Files/Pods-QuickScan-QuickScanUITests/Pods-QuickScan-QuickScanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0D064314D7AA2C331320D552 /* Pods_QuickScan_QuickScanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickScan_QuickScanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10DAEE04350C5E91B8D56EB3 /* Pods-QuickScan-QuickScanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickScan-QuickScanUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuickScan-QuickScanUITests/Pods-QuickScan-QuickScanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1796146D00F646CDA35DF141 /* Pods-QuickScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickScan.release.xcconfig"; path = "Target Support Files/Pods-QuickScan/Pods-QuickScan.release.xcconfig"; sourceTree = "<group>"; };
+		5BABE6B61E27D2ED23AA538A /* Pods-QuickScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickScan.debug.xcconfig"; path = "Target Support Files/Pods-QuickScan/Pods-QuickScan.debug.xcconfig"; sourceTree = "<group>"; };
+		645060390A5CC2FCCC402074 /* Pods-QuickScanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickScanTests.release.xcconfig"; path = "Target Support Files/Pods-QuickScanTests/Pods-QuickScanTests.release.xcconfig"; sourceTree = "<group>"; };
+		6AB69FA273D95C3A2502962F /* Pods_QuickScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7979C70DE70D6F814BF7EB53 /* Pods_QuickScanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickScanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01D08E0243F729E0020048C /* QuickScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01D08E3243F729E0020048C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E01D08E5243F729E0020048C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E01D08E7243F729E0020048C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E01D08E7243F729E0020048C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E01D08EA243F729E0020048C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E01D08EC243F729E0020048C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E01D08EF243F729E0020048C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +89,18 @@
 		E01D0901243F729E0020048C /* QuickScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01D0905243F729E0020048C /* QuickScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickScanUITests.swift; sourceTree = "<group>"; };
 		E01D0907243F729E0020048C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01D0913243F75420020048C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		E01D0917243F7BAE0020048C /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
+		E01D091A243F7C050020048C /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		E01D091E243F7D790020048C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E0A5EF3024400D0A006CE34A /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		E0A5EF3424400D98006CE34A /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewModel.swift; sourceTree = "<group>"; };
+		E0A5EF3924401137006CE34A /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		E0A5EF3D244011E1006CE34A /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		E0A5EF4224401395006CE34A /* SceneHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneHelper.swift; sourceTree = "<group>"; };
+		E0A5EF472440362E006CE34A /* ScanType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanType.swift; sourceTree = "<group>"; };
+		E0A5EF4B24404569006CE34A /* SendDataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataDelegate.swift; sourceTree = "<group>"; };
+		EC51AD0076CCAA99DB4D8439 /* Pods-QuickScanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickScanTests.debug.xcconfig"; path = "Target Support Files/Pods-QuickScanTests/Pods-QuickScanTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A845F815D6123AC4DFCF4BE9 /* Pods_QuickScan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440C05342B793771FAD343D7 /* Pods_QuickScanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +124,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCDBBA21CE209B7A0A419A82 /* Pods_QuickScan_QuickScanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23574732E4AB8F49124B802F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AB69FA273D95C3A2502962F /* Pods_QuickScan.framework */,
+				0D064314D7AA2C331320D552 /* Pods_QuickScan_QuickScanUITests.framework */,
+				7979C70DE70D6F814BF7EB53 /* Pods_QuickScanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3642523C3F14D0E2BF6B41E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BABE6B61E27D2ED23AA538A /* Pods-QuickScan.debug.xcconfig */,
+				1796146D00F646CDA35DF141 /* Pods-QuickScan.release.xcconfig */,
+				10DAEE04350C5E91B8D56EB3 /* Pods-QuickScan-QuickScanUITests.debug.xcconfig */,
+				06D8D663F260D4EB5B9A1A59 /* Pods-QuickScan-QuickScanUITests.release.xcconfig */,
+				EC51AD0076CCAA99DB4D8439 /* Pods-QuickScanTests.debug.xcconfig */,
+				645060390A5CC2FCCC402074 /* Pods-QuickScanTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E01D08D7243F729E0020048C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +161,8 @@
 				E01D08F9243F729E0020048C /* QuickScanTests */,
 				E01D0904243F729E0020048C /* QuickScanUITests */,
 				E01D08E1243F729E0020048C /* Products */,
+				3642523C3F14D0E2BF6B41E1 /* Pods */,
+				23574732E4AB8F49124B802F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +179,14 @@
 		E01D08E2243F729E0020048C /* QuickScan */ = {
 			isa = PBXGroup;
 			children = (
+				E0A5EF4624403618006CE34A /* Data */,
+				E0A5EF3824401113006CE34A /* Scene */,
+				E01D0924244009560020048C /* ViewModel */,
+				E01D0923244009490020048C /* View */,
+				E01D0919243F7BD10020048C /* Service */,
+				E01D08E9243F729E0020048C /* Main.storyboard */,
 				E01D08E3243F729E0020048C /* AppDelegate.swift */,
 				E01D08E5243F729E0020048C /* SceneDelegate.swift */,
-				E01D08E7243F729E0020048C /* ViewController.swift */,
-				E01D08E9243F729E0020048C /* Main.storyboard */,
 				E01D08EC243F729E0020048C /* Assets.xcassets */,
 				E01D08EE243F729E0020048C /* LaunchScreen.storyboard */,
 				E01D08F1243F729E0020048C /* Info.plist */,
@@ -113,6 +197,7 @@
 		E01D08F9243F729E0020048C /* QuickScanTests */ = {
 			isa = PBXGroup;
 			children = (
+				E01D0917243F7BAE0020048C /* APIServiceTests.swift */,
 				E01D08FA243F729E0020048C /* QuickScanTests.swift */,
 				E01D08FC243F729E0020048C /* Info.plist */,
 			);
@@ -128,6 +213,52 @@
 			path = QuickScanUITests;
 			sourceTree = "<group>";
 		};
+		E01D0919243F7BD10020048C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E01D091A243F7C050020048C /* BaseAPI.swift */,
+				E01D091E243F7D790020048C /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E01D0923244009490020048C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E01D08E7243F729E0020048C /* MainViewController.swift */,
+				E0A5EF3024400D0A006CE34A /* ScanViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E01D0924244009560020048C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E01D0913243F75420020048C /* MainViewModel.swift */,
+				E0A5EF3424400D98006CE34A /* ScanViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E0A5EF3824401113006CE34A /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E0A5EF3924401137006CE34A /* Scene.swift */,
+				E0A5EF4224401395006CE34A /* SceneHelper.swift */,
+				E0A5EF3D244011E1006CE34A /* SceneCoordinator.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		E0A5EF4624403618006CE34A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E0A5EF472440362E006CE34A /* ScanType.swift */,
+				E0A5EF4B24404569006CE34A /* SendDataDelegate.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E01D090A243F729E0020048C /* Build configuration list for PBXNativeTarget "QuickScan" */;
 			buildPhases = (
+				5A347997BB744E267F18CC6B /* [CP] Check Pods Manifest.lock */,
 				E01D08DC243F729E0020048C /* Sources */,
 				E01D08DD243F729E0020048C /* Frameworks */,
 				E01D08DE243F729E0020048C /* Resources */,
+				8017BD976DC2699FADA76081 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E01D090D243F729E0020048C /* Build configuration list for PBXNativeTarget "QuickScanTests" */;
 			buildPhases = (
+				80CF1A07F34315A1F9462E41 /* [CP] Check Pods Manifest.lock */,
 				E01D08F2243F729E0020048C /* Sources */,
 				E01D08F3243F729E0020048C /* Frameworks */,
 				E01D08F4243F729E0020048C /* Resources */,
+				F378C36ED302F3E045341E03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E01D0910243F729E0020048C /* Build configuration list for PBXNativeTarget "QuickScanUITests" */;
 			buildPhases = (
+				783AC74A2A4F7A85BC0F1553 /* [CP] Check Pods Manifest.lock */,
 				E01D08FD243F729E0020048C /* Sources */,
 				E01D08FE243F729E0020048C /* Frameworks */,
 				E01D08FF243F729E0020048C /* Resources */,
+				2ACDDD349701BAF3918697CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +391,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ACDDD349701BAF3918697CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickScan-QuickScanUITests/Pods-QuickScan-QuickScanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickScan-QuickScanUITests/Pods-QuickScan-QuickScanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickScan-QuickScanUITests/Pods-QuickScan-QuickScanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A347997BB744E267F18CC6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickScan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		783AC74A2A4F7A85BC0F1553 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickScan-QuickScanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8017BD976DC2699FADA76081 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickScan/Pods-QuickScan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickScan/Pods-QuickScan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickScan/Pods-QuickScan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80CF1A07F34315A1F9462E41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickScanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F378C36ED302F3E045341E03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickScanTests/Pods-QuickScanTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickScanTests/Pods-QuickScanTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickScanTests/Pods-QuickScanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E01D08DC243F729E0020048C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01D08E8243F729E0020048C /* ViewController.swift in Sources */,
+				E01D08E8243F729E0020048C /* MainViewController.swift in Sources */,
+				E0A5EF4C24404569006CE34A /* SendDataDelegate.swift in Sources */,
+				E0A5EF482440362E006CE34A /* ScanType.swift in Sources */,
+				E0A5EF3E244011E1006CE34A /* SceneCoordinator.swift in Sources */,
+				E0A5EF3124400D0A006CE34A /* ScanViewController.swift in Sources */,
 				E01D08E4243F729E0020048C /* AppDelegate.swift in Sources */,
+				E01D0914243F75420020048C /* MainViewModel.swift in Sources */,
+				E0A5EF4324401395006CE34A /* SceneHelper.swift in Sources */,
 				E01D08E6243F729E0020048C /* SceneDelegate.swift in Sources */,
+				E01D091F243F7D790020048C /* APIService.swift in Sources */,
+				E01D091B243F7C050020048C /* BaseAPI.swift in Sources */,
+				E0A5EF3A24401137006CE34A /* Scene.swift in Sources */,
+				E0A5EF3524400D98006CE34A /* ScanViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +536,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E01D091C243F7C050020048C /* BaseAPI.swift in Sources */,
+				E0A5EF4424401395006CE34A /* SceneHelper.swift in Sources */,
+				E0A5EF4D24404569006CE34A /* SendDataDelegate.swift in Sources */,
+				E0A5EF3624400D98006CE34A /* ScanViewModel.swift in Sources */,
+				E0A5EF3B24401137006CE34A /* Scene.swift in Sources */,
+				E0A5EF3F244011E1006CE34A /* SceneCoordinator.swift in Sources */,
+				E0A5EF492440362E006CE34A /* ScanType.swift in Sources */,
+				E01D0918243F7BAE0020048C /* APIServiceTests.swift in Sources */,
+				E0A5EF3224400D0A006CE34A /* ScanViewController.swift in Sources */,
+				E01D0920243F7D790020048C /* APIService.swift in Sources */,
 				E01D08FB243F729E0020048C /* QuickScanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +555,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E01D0906243F729E0020048C /* QuickScanUITests.swift in Sources */,
+				E0A5EF3C24401137006CE34A /* Scene.swift in Sources */,
+				E0A5EF4524401395006CE34A /* SceneHelper.swift in Sources */,
+				E01D0921243F7D790020048C /* APIService.swift in Sources */,
+				E01D091D243F7C050020048C /* BaseAPI.swift in Sources */,
+				E0A5EF3724400D98006CE34A /* ScanViewModel.swift in Sources */,
+				E0A5EF40244011E1006CE34A /* SceneCoordinator.swift in Sources */,
+				E0A5EF4A2440362E006CE34A /* ScanType.swift in Sources */,
+				E0A5EF3324400D0A006CE34A /* ScanViewController.swift in Sources */,
+				E0A5EF4E24404569006CE34A /* SendDataDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,40 +718,51 @@
 		};
 		E01D090B243F729E0020048C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BABE6B61E27D2ED23AA538A /* Pods-QuickScan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CS6F63S589;
 				INFOPLIST_FILE = QuickScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = newoo.QuickScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E01D090C243F729E0020048C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1796146D00F646CDA35DF141 /* Pods-QuickScan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CS6F63S589;
 				INFOPLIST_FILE = QuickScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = newoo.QuickScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		E01D090E243F729E0020048C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC51AD0076CCAA99DB4D8439 /* Pods-QuickScanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +784,7 @@
 		};
 		E01D090F243F729E0020048C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645060390A5CC2FCCC402074 /* Pods-QuickScanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +806,7 @@
 		};
 		E01D0911243F729E0020048C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10DAEE04350C5E91B8D56EB3 /* Pods-QuickScan-QuickScanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +826,7 @@
 		};
 		E01D0912243F729E0020048C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D8D663F260D4EB5B9A1A59 /* Pods-QuickScan-QuickScanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
